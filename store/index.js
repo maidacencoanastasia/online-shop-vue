@@ -2,7 +2,7 @@ export const state = () => ({
   products: [
     {
       id: 1,
-      imag:'https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_960_720.jpg',
+      imag:'https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68',
       title: 'Striped Long Sleeve Shirt',
       description: 'Red/Sky Blue',
       price: 50,
@@ -15,7 +15,7 @@ export const state = () => ({
     },
     {
       id: 2,
-      imag:'//images.wbstatic.net/big/new/25530000/25536092-1.jpg',
+      imag:'https://i.picsum.photos/id/1000/5626/3635.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g',
       title: 'Product 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 35,
@@ -80,7 +80,7 @@ export const state = () => ({
     },
     {
       id: 7,
-      imag:'https://images.wbstatic.net/big/new/13720000/13724854-1.jpg',
+      imag:'https://loremflickr.com/320/240/shoes',
       title: 'Product 7',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 50,
@@ -93,7 +93,7 @@ export const state = () => ({
     },
     {
       id: 8,
-      imag:"https://images.wbstatic.net/c246x328/new/12050000/12052242-1.jpg",
+      imag:"https://i.picsum.photos/id/1024/1920/1280.jpg?hmac=-PIpG7j_fRwN8Qtfnsc3M8-kC3yb0XYOBfVzlPSuVII",
       title: 'Product 8',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 35,
