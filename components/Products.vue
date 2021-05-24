@@ -2,7 +2,9 @@
   <div>
     <div class="card-image">
       <figure class="image is-4by3">
-        <img src="https://cdn.webshopapp.com/shops/38765/files/360122676/pop-it-fidget-toy-known-from-tiktok-hexagon-rainbo.jpg" alt="Placeholder image">
+        <img :src="product.imag" alt="Placeholder image">
+<!--        D:\USARB\Chilat\Vuemmerce\store\imag\image-122.jpg-->
+<!--        D:\USARB\Chilat\Vuemmerce\pages\product_detail\_id.vue-->
       </figure>
     </div>
     <div class="card-content">

@@ -2,7 +2,7 @@
   <div class="section">
     <div class="card is-clearfix columns">
         <figure class="card-image is-480x480 column is-one-thirds">
-          <img src="https://www.3afrottotoys.com/wp-content/uploads/2021/04/POPITRBT.jpg">
+          <img :src="product.imag">
         </figure>
         <div class="card-content column is-two-thirds">
           <div class="card-content__title">

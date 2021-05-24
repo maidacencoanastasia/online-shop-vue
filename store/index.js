@@ -2,8 +2,9 @@ export const state = () => ({
   products: [
     {
       id: 1,
-      title: 'Product 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      imag:'https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_960_720.jpg',
+      title: 'Striped Long Sleeve Shirt',
+      description: 'Red/Sky Blue',
       price: 50,
       ratings: 3,
       reviews: 5,
@@ -14,6 +15,7 @@ export const state = () => ({
     },
     {
       id: 2,
+      imag:'//images.wbstatic.net/big/new/25530000/25536092-1.jpg',
       title: 'Product 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 35,
@@ -26,6 +28,7 @@ export const state = () => ({
     },
     {
       id: 3,
+      imag:'https://loremflickr.com/320/240',
       title: 'Product 3',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 110,
@@ -38,6 +41,7 @@ export const state = () => ({
     },
     {
       id: 4,
+      imag:'https://loremflickr.com/320/240/clothes',
       title: 'Product 4',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 50,
@@ -50,6 +54,7 @@ export const state = () => ({
     },
     {
       id: 5,
+      imag:'https://picsum.photos/200',
       title: 'Product 5',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 35,
@@ -62,6 +67,7 @@ export const state = () => ({
     },
     {
       id: 6,
+      imag:'https://picsum.photos/200/300',
       title: 'Product 6',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 110,
@@ -74,6 +80,7 @@ export const state = () => ({
     },
     {
       id: 7,
+      imag:'https://images.wbstatic.net/big/new/13720000/13724854-1.jpg',
       title: 'Product 7',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 50,
@@ -86,6 +93,7 @@ export const state = () => ({
     },
     {
       id: 8,
+      imag:"https://images.wbstatic.net/c246x328/new/12050000/12052242-1.jpg",
       title: 'Product 8',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 35,
@@ -98,6 +106,7 @@ export const state = () => ({
     },
     {
       id: 9,
+      imag:'https://picsum.photos/id/2/200/300',
       title: 'Product 9',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       price: 110,
@@ -236,7 +245,7 @@ export const mutations = {
     state.authUser = authUser
   }
 }
-/* 
+/*
 export const actions = {
   async nuxtServerInit({ commit }) {
     const res = await this.$axios.get("/api/current_user")

@@ -11,6 +11,7 @@
   </div>
 </template>
 
+
 <script>
 import VmHeader from '@/components/header/Header';
 import VmFooter from '@/components/footer/Footer';
