@@ -21,8 +21,7 @@
           </div>
           <div class="card-content__text">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud
+              {{product.description}}
             </p>
           </div>
           <div class="card-content__ratings" v-if="product.rating === 1">
